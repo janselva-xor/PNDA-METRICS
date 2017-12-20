@@ -10,8 +10,12 @@
 * Influx DB is also configured to source and store metrics from graphite.
 * Telegraf agent can also be configured to produce data to Kafka.
 
+# Pre-requisite:
+Scripts require RHEL OS and can be used to deploy metrics packages in PNDA RHEL cluster.
+
+
 # Build Script
-* Build server need to have access Internet, to download the packages
+* Build server need to have Internet access, to download the packages
 * User need to have existing PNDA mirror server
 * User need to have access to mirror server , to copy the mirror_metrics  directory created by build script to PNDA_MIRROR/mirror_metrics
 * Deployment script going to use existing PNDA_MIRROR/mirror_misc packages [java package for jetty]
