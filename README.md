@@ -29,7 +29,7 @@ Step2: Run Build script
      
       cd build 
  
-      sh build_metrics.sh
+      ./build_metrics.sh
  
 Step3: copy the mirror_metrics directory to pnda mirror server.
  
